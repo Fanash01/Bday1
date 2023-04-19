@@ -12,7 +12,7 @@ def guess_number():
             balloons_img = Image.open("balloons.jpg")
             st.image(balloons_img, caption="Balloons!", use_column_width=True)
             st.write("Check out my personalized website at http://www.mywebsite.com")
-            st.audio("birthday_song.mp3", format="audio/mp3")
+            st.audio("music.mp3", format="audio/mp3")
         else:
             st.warning("Wrong! Guess again.")
 
